@@ -8,7 +8,7 @@ const App = () => {
   const [activePage, setActivePage] = useState("home");
 
   // --- Единое состояние игрока ---
-  const [balance, setBalance] = useState(1000);
+  const [balance, setBalance] = useState(10000);
   const [energy, setEnergy] = useState(80);
   const [day, setDay] = useState(1);
   const [gameTime, setGameTime] = useState("09:00");
